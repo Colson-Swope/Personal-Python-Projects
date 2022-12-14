@@ -1,9 +1,40 @@
 import turtle 
+import time
 
-#Contains code for the main game loop
+#Contains code for drawing the grid 
 def mainGame():
-    print("Insert game here")
+    import turtle 
 
+    t=turtle.Pen()
+    t.up()
+    t.left(180)
+    t.forward(150)
+    t.right(90)
+    t.forward(50)
+    t.right(90)
+    t.down()
+    t.forward(150)
+    t.up()
+    t.right(90)
+    t.forward(50)
+    t.right(90)
+    t.down()
+    t.forward(150)                            
+    t.up()
+    t.left(90)
+    t.forward(50)
+    t.left(90)
+    t.forward(50)
+    t.left(90)
+    t.down()
+    t.forward(150)
+    t.up()
+    t.right(90)
+    t.forward(50)
+    t.right(90)
+    t.down()
+    t.forward(150)
+    
 #Contains help documentation text 
 def helpDocumentation():
     print("Insert game documentation here")
@@ -31,3 +62,5 @@ while True:
     #If the player enters "H", display the help documentation and start the loop again 
     if 'H' == menuOption:
         helpDocumentation()
+
+
